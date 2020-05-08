@@ -1,0 +1,64 @@
+<!--[if lt IE 7]>
+    <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<![endif]-->
+
+<div class="responsive-header visible-xs visible-sm">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="top-section">
+                    <div class="profile-image">
+                        <a href="{{ .Site.BaseURL  }}">
+                            <img src="{{ .Site.BaseURL  }}img/profile.jpeg" alt="mshogin">
+                        </a>
+                    </div>
+                    <div class="profile-content">
+                        <h3 class="profile-title">Mike Shogin</h3>
+                        <p class="profile-description">Software Enginieer & Systems Architect</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="toggle-menu"><i class="fa fa-bars"></i></a>
+        <div class="main-navigation responsive-menu">
+            <ul class="navigation">
+                <li><a href="#top"><i class="fa fa-home"></i>Home</a></li>
+                <li><a href="#about"><i class="fa fa-user"></i>About</a></li>
+                <li><a href="#projects"><i class="fa fa-newspaper-o"></i>Projects</a></li>
+                <li><a href="#places"><i class="fas fa-globe-europe"></i>Places</a></li>
+                <li><a href="#blog"><i class="fas fa-blog"></i>Blog</a></li>
+                <li class="hide"><a href="#contact"><i class="fa fa-envelope"></i>Contact Me</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<!-- SIDEBAR -->
+<div class="sidebar-menu hidden-xs hidden-sm">
+    <div class="top-section">
+        <div class="profile-image">
+            <a href="{{ .Site.BaseURL  }}">
+                <img src="{{ .Site.BaseURL  }}img/profile.jpeg" alt="mshogin">
+            </a>
+        </div>
+        <h3 class="profile-title">Mike Shogin</h3>
+        <p class="profile-description">Software Enginieer & Systems Architect</p>
+    </div> <!-- top-section -->
+    <div class="main-navigation">
+        <ul class="navigation">
+            <li><a href="#top"><i class="fa fa-globe"></i>Welcome</a></li>
+            <li><a href="#about"><i class="fa fa-pencil"></i>About</a></li>
+            <li><a href="#projects"><i class="fa fa-paperclip"></i>Projects</a></li>
+            <li><a href="#places"><i class="fas fa-globe-europe"></i>Places</a></li>
+            <li><a href="#blog"><i class="fas fa-blog"></i>Blog</a></li>
+            <li class="hide"><a href="#contact"><i class="fa fa-link"></i>Contact Me</a></li>
+        </ul>
+    </div> <!-- .main-navigation -->
+    <div class="social-icons">
+        <ul>
+            <li><a href="https://www.facebook.com/golang.nuts"><i class="fab fa-linkedin"></i></a></li>
+            <li><a href="https://www.reddit.com/user/mshogin/"><i class="fab fa-reddit"></i></a></li>
+            <li><a href="https://www.facebook.com/mshogin"><i class="fab fa-facebook"></i></a></li>
+        </ul>
+    </div> <!-- .social-icons -->
+</div> <!-- .sidebar-menu -->

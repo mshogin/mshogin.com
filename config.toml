@@ -1,0 +1,25 @@
+baseURL = "https://www.mshogin.com/"
+title = "Mike Shogin aka mshogin. Senior Software Enginieer."
+languageCode = "en-us"
+googleAnalytics = "UA-31707180-2"
+enableEmoji = true 
+copyright = "© 2020 <a href='https://www.mshogin.com'>Mike Shogin</a>. @mshogin</a>."
+description = "Personal site."
+pygmentsUseClasses=true
+
+[taxonomies]
+  golang = "golang"
+  jenkins = "jenkins"
+  patterns = "patterns"
+
+[markup]
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ""
+    lineNoStart = 1
+    lineNos = false
+    lineNumbersInTable = true
+    noClasses = true
+    style = "monokai"
+    tabWidth = 4

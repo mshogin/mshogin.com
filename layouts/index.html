@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+    {{ partial "header.html" . }}
+<body>
+    {{ partial "sidebar.html" . }}
+
+    {{ partial "banner.html" . }}
+
+    <!-- MAIN CONTENT -->
+    <div class="main-content">
+        <div class="fluid-container">
+
+            <div class="content-wrapper">
+
+                {{ partial "about.html" . }}
+
+                {{ partial "projects.html" . }}
+
+                {{ partial "travel.html" . }}
+
+                {{ partial "blog.html" . }}
+
+                {{ partial "copyright.html" . }}
+
+            </div>
+
+        </div>
+    </div>
+    {{ partial "footer-scripts.html" . }}
+</body>
+</html>
