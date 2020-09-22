@@ -2,7 +2,7 @@
 title: "Inefficient ioutil.ReadAll"
 date: 2020-09-22T13:19:43+02:00
 draft: false
-description: In this article we consider why is using ioutil.ReadAll could be ineficient and how to workaround that issue.
+description: In this article we consider why is using ioutil.ReadAll could be inefficient and how to workaround that issue.
 tags: perfomance profiling memory
 ---
 
