@@ -14,7 +14,7 @@
                     </div>
                     <div class="profile-content">
                         <h3 class="profile-title">Mike Shogin</h3>
-                        <p class="profile-description">Software Enginieer & Systems Architect</p>
+                        <p class="profile-description">Systems Architect & Software Enginieer</p>
                     </div>
                 </div>
             </div>
@@ -22,12 +22,12 @@
         <a href="#" class="toggle-menu"><i class="fa fa-bars"></i></a>
         <div class="main-navigation responsive-menu">
             <ul class="navigation">
-                <li><a href="#top"><i class="fa fa-home"></i>Home</a></li>
-                <li><a href="#about"><i class="fa fa-user"></i>About</a></li>
-                <li><a href="#projects"><i class="fa fa-newspaper-o"></i>Projects</a></li>
-                <li><a href="#places"><i class="fas fa-globe-europe"></i>Places</a></li>
-                <li><a href="#blog"><i class="fas fa-blog"></i>Blog</a></li>
-                <li class="hide"><a href="#contact"><i class="fa fa-envelope"></i>Contact Me</a></li>
+                <li><a href="{{ .Site.BaseURL  }}#top" onclick="document.location='{{ .Site.BaseURL  }}#top';"><i class="fa fa-home"></i>Home</a></li>
+                <li><a href="{{ .Site.BaseURL  }}#about" onclick="document.location='{{ .Site.BaseURL  }}#about';"><i class="fa fa-user"></i>About</a></li>
+                <li><a href="{{ .Site.BaseURL  }}#projects" onclick="document.location='{{ .Site.BaseURL  }}#projects';"><i class="fa fa-newspaper-o"></i>Projects</a></li>
+                <li><a href="{{ .Site.BaseURL  }}#places" onclick="document.location='{{ .Site.BaseURL  }}#places';"><i class="fas fa-globe-europe"></i>Places</a></li>
+                <li><a onclick="document.location='{{ .Site.BaseURL  }}#blog';" href="{{ .Site.BaseURL  }}#blog"  class="external"><i class="fas fa-blog"></i>Blog</a></li>
+                <li class="hide"><a href="{{ .Site.BaseURL  }}#contact"><i class="fa fa-envelope"></i>Contact Me</a></li>
             </ul>
         </div>
     </div>
@@ -42,16 +42,16 @@
             </a>
         </div>
         <h3 class="profile-title">Mike Shogin</h3>
-        <p class="profile-description">Software Enginieer & Systems Architect</p>
+        <p class="profile-description">Systems Architect & Software Enginieer</p>
     </div> <!-- top-section -->
     <div class="main-navigation">
         <ul class="navigation">
-            <li><a href="#top"><i class="fa fa-globe"></i>Welcome</a></li>
-            <li><a href="#about"><i class="fa fa-pencil"></i>About</a></li>
-            <li><a href="#projects"><i class="fa fa-paperclip"></i>Projects</a></li>
-            <li><a href="#places"><i class="fas fa-globe-europe"></i>Places</a></li>
-            <li><a href="#blog"><i class="fas fa-blog"></i>Blog</a></li>
-            <li class="hide"><a href="#contact"><i class="fa fa-link"></i>Contact Me</a></li>
+            <li><a href="{{ .Site.BaseURL  }}#top" onclick="document.location='{{ .Site.BaseURL  }}#top';"><i class="fa fa-globe"></i>Welcome</a></li>
+            <li><a href="{{ .Site.BaseURL  }}#about" onclick="document.location='{{ .Site.BaseURL  }}#about';"><i class="fa fa-pencil"></i>About</a></li>
+            <li><a href="{{ .Site.BaseURL  }}#projects" onclick="document.location='{{ .Site.BaseURL  }}#projects';"><i class="fa fa-paperclip"></i>Projects</a></li>
+            <li><a href="{{ .Site.BaseURL  }}#places" onclick="document.location='{{ .Site.BaseURL  }}#places';"><i class="fas fa-globe-europe"></i>Places</a></li>
+            <li><a href="{{ .Site.BaseURL  }}#blog" onclick="document.location='{{ .Site.BaseURL  }}#blog';"><i class="fas fa-blog"></i>Blog</a></li>
+            <li class="hide"><a href="{{ .Site.BaseURL  }}#contact"><i class="fa fa-link"></i>Contact Me</a></li>
         </ul>
     </div> <!-- .main-navigation -->
     <div class="social-icons">
